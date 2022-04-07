@@ -42,6 +42,7 @@ $(() => {
 
   getMyDetails()
     .then(function( json ) {
+      console.log(json);
     updateHeader(json.user);
   });
 
